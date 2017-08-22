@@ -18,7 +18,6 @@
   "homepage": "https://github.com/harleenkr/rethinkdbtask#readme",
   "dependencies": {
     "got": "^7.1.0",
-    "rethinkdb": "^2.3.3",
     "rethinkdbdash": "^2.3.31"
   }
 }

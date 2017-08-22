@@ -9,7 +9,7 @@
 
 index.js
 
-rethink.js
+rethinkdbCon.js
 
 package.json
 
