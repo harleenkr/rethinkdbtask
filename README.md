@@ -9,8 +9,6 @@
 
 index.js
 
-rethinkdbCon.js
-
 package.json
 
 README.MD

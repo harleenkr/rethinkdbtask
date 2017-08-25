@@ -26,7 +26,6 @@ try{
    'ru',
    'jp'
  ]
- console.log('code',code);
  for(i=0; i<code.length;i++){
  var detailsByCode = await superagent.get('http://pplapi.com/country/' + code[i] + '/random.json');
  var responseByCode = detailsByCode.body;
@@ -39,5 +38,5 @@ try{
  }
 }
 getDetailsByCode().then(function(DataByCode){
-     console.log('DataByCode',DataByCode);
+     //console.log('DataByCode',DataByCode);
 })
